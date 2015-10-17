@@ -25,16 +25,11 @@ body{
     top: 0;
     width: 100%;
     background-color: #0f2f2b;
-    z-index: 120;
+    z-index: 100;
     border: 0px;
     // box-shadow:0px 0px 5px 3px #3a3633;
 }
 
-@media screen and (min-width: 992px){
-    #nav{
-        z-index: 100;
-    }
-}
 
 #navbar-photo{
     width: 30px;
@@ -47,7 +42,6 @@ body{
     margin: 0 0 0 0;
     padding: 0 15% 0 15%;
     color: #dcdcdc;
-    z-index: 110;
 }
 #goal{
     display: flex;
@@ -78,19 +72,6 @@ body{
 @media screen and (min-width: 750px){
     #goal > div{
         font-size: 26px;
-    }
-}
-@media screen and (min-width: 992px){
-    .row.vdivide > [class*='col-']:not(:last-child):after {
-        background: #e0e0e0;
-        width: 1px;
-        content: "";
-        display:block;
-        position: absolute;
-        top:0;
-        bottom: 0;
-        right: 0;
-        min-height: 70px;
     }
 }
 #member{
