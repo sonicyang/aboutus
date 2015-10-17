@@ -47,6 +47,10 @@ body{
 #goal{
     height: 500px;
     background-color: #FFFFFF;
+    display: inline-flex;
+}
+#goal > div{
+    margin: auto 100px;
 }
 @media screen and (min-width: 992px){
     .row.vdivide > [class*='col-']:not(:last-child):after {
