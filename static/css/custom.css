@@ -12,10 +12,13 @@
     text-align: center;
 
 }
+html{
+    height: 100%;
+}
 body{
     background-color: #ffffff;
     // background-color: #dcdcdc;
-    height: 150%;
+    height: 100%;
 }
 #nav{
     position: fixed;
@@ -47,12 +50,35 @@ body{
     z-index: 110;
 }
 #goal{
-    height: 500px;
+    display: flex;
+    height: 50%;
+    min-height: 350px;
+    max-height: 450px;
     background-color: #FFFFFF;
-    display: inline-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
 }
 #goal > div{
-    margin: auto 100px;
+    text-align: center;
+    line-height: 200%;
+    font-size: 16px;
+}
+@media screen and (min-width: 400px){
+    #goal > div{
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 500px){
+    #goal > div{
+        font-size: 22px;
+    }
+}
+@media screen and (min-width: 750px){
+    #goal > div{
+        font-size: 26px;
+    }
 }
 @media screen and (min-width: 992px){
     .row.vdivide > [class*='col-']:not(:last-child):after {
