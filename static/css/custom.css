@@ -1,0 +1,179 @@
+#photo-container{
+}
+#photo{
+    position: relative;
+    width: 200px;
+    margin-top: 5%;
+    z-index: 110;
+}
+#intro{
+    background-color: #3a3a3a;
+    padding: 150px 10% 100px 10%;
+    height: 700px;
+    width: 100%;
+    text-align: center;
+
+}
+body{
+    background-color: #ffffff;
+    // background-color: #dcdcdc;
+    height: 150%;
+}
+#nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #3a3a3a;
+    z-index: 120;
+    border: 0px;
+    // box-shadow:0px 0px 5px 3px #3a3633;
+}
+
+@media screen and (min-width: 992px){
+    #nav{
+        z-index: 100;
+    }
+}
+
+#navbar-photo{
+    width: 30px;
+}
+#name{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    margin: 0 0 0 0;
+    padding: 0 15% 0 15%;
+    color: #dcdcdc;
+    z-index: 110;
+}
+#name-underline{
+    margin: 0 30% 5% 15%;
+    border-top: 3px solid #333333;
+}
+#contact_container{
+    padding-top: 1%;
+}
+.contact_type{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.contact_info{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+#basic-info{
+    background-color: #FFFFFF;
+}
+@media screen and (min-width: 992px){
+    .row.vdivide > [class*='col-']:not(:last-child):after {
+        background: #e0e0e0;
+        width: 1px;
+        content: "";
+        display:block;
+        position: absolute;
+        top:0;
+        bottom: 0;
+        right: 0;
+        min-height: 70px;
+    }
+}
+.personal-info{
+    padding: 5% 10% 5% 10%;
+}
+.personal-info-block{
+    height: 350px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.personal-info-content{
+    display: inline-block;
+    text-align: left;
+    width: 80%;
+    left: 10%;
+}
+.personal-info-item{
+    padding-top: 5%;
+}
+.icon{
+    padding: 0 0 0 0;
+}
+.font-18{
+     font-size: 18px;
+}
+.graduate-year{
+     font-size: 12px;
+}
+#skill{
+    background-color:#F5F5F5;
+    padding: 5% 0 5% 0;
+}
+.skill-block{
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 100px;
+}
+.lang-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-anchor: middle;
+}
+#speciality{
+     padding: 0% 15% 3% 15%;
+}
+
+#speciality h4{
+    margin-top: 3%;
+}
+
+.speciality-col{
+    margin-top: 50px;
+}
+text{
+    font-size: 16px;
+
+}
+#project{
+    background-color: #FFFFFF;
+    padding: 5% 15% 5% 15%;
+}
+#project h2{
+
+    font-family: 'Montserrat', sans-serif;
+}
+#project-list{
+    font-family: 'Montserrat', sans-serif;
+    padding: 5% 0 0 0;
+}
+.project-item{
+    padding: 5% 0 0 0;
+}
+.project-img img{
+    height: 200px;
+}
+.project-content h3{
+    text-align: center;
+}
+@media screen and (min-width: 992px){
+    .project-content h3{
+        text-align: left;
+    }
+}
+#experience{
+    background-color: #F5F5F5;
+    padding: 5% 15% 5% 15%;
+    font-family: 'Montserrat', sans-serif;
+}
+#experience h2{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 7%;
+}
+#experience img{
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.exp-item{
+     margin-bottom: 50px;
+     ;
+}
