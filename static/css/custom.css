@@ -45,6 +45,7 @@ body{
 }
 #goal{
     display: flex;
+    display: -webkit-flex;
     height: 50%;
     min-height: 350px;
     max-height: 450px;
