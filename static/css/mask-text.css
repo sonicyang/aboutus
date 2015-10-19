@@ -27,12 +27,12 @@ svg #alpha {
 svg #title {
   letter-spacing: 2px;
   font-size: 7em;
-  font-weight: 800;
+  font-weight: 900;
 }
 svg #subtitle {
   letter-spacing: 3px;
-  font-size: 1.2em;
-  font-weight: 300;
+  font-size: 1.6em;
+  font-weight: 700;
   text-transform: uppercase;
 }
 svg #base {
