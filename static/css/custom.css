@@ -1,0 +1,94 @@
+
+#photo-container{
+}
+
+#intro{
+    background-color: #43857C;
+    background-image: url(../img/cover.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+
+}
+html{
+    height: 100%;
+}
+body{
+    background-color: #ffffff;
+    // background-color: #dcdcdc;
+    height: 100%;
+}
+#nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #0f2f2b;
+    z-index: 100;
+    border: 0px;
+    // box-shadow:0px 0px 5px 3px #3a3633;
+}
+
+
+#navbar-photo{
+    width: 30px;
+}
+#name{
+    position: relative;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    font-size: 90px;
+    margin: 0 0 0 0;
+    padding: 0 15% 0 15%;
+    color: #dcdcdc;
+}
+#goal{
+    display: flex;
+    display: -webkit-flex;
+    height: 50%;
+    min-height: 350px;
+    max-height: 450px;
+    background-color: #FFFFFF;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+#goal > div{
+    text-align: center;
+    line-height: 200%;
+    font-size: 16px;
+}
+@media screen and (min-width: 400px){
+    #goal > div{
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 500px){
+    #goal > div{
+        font-size: 22px;
+    }
+}
+@media screen and (min-width: 750px){
+    #goal > div{
+        font-size: 26px;
+    }
+}
+#member{
+    background-color: #a7e3d7;
+    padding: 5% 10% 5% 10%;
+    font-family: 'Montserrat', sans-serif;
+}
+#member h2{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 7%;
+}
+#member img{
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.member-item{
+     margin-bottom: 50px;
+     ;
+}
