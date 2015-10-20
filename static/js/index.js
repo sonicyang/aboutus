@@ -10,6 +10,7 @@ $(document).ready(function(){
             'scrollTop': $target.offset().top - 50
         }, 900, 'swing', function () {
             window.location.hash = target;
+            $(window).scrollTop($target.offset().top - 50)
         });
     });
 });
@@ -30,7 +31,7 @@ $('nav a').on('click', function(){
     $(this).parent().attr("class", "active");
 })
 
-// put a dark layer on the header image 
+// put a dark layer on the header image
 $(function(){
     // 預設的透明度值
     var _opacity = 0.4;
